@@ -1,0 +1,2 @@
+#include<ios>
+int a=1e4,b,c=7e4,p,d,e,f[70001],g;main(){char x[c];for(;d=0,g=c*2;c-=14,sprintf(x+4*p++,"%.4d",e+d/a),e=d%a)for(b=c;d+=(p?f[b]:2e3)*a,f[b]=d%--g,d/=g--,--b;d*=b);for(;b<128e3;putchar(x[b/8+1]>>7-b++%8&1|48));}

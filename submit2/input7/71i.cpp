@@ -1,0 +1,2 @@
+#include<bits/stdc++.h>
+int a=1e4,b,c=56014,d,e,f[56015],g;char x[4];std::string s;main(){for(;b-c;)f[b++]=a/5;for(;d=0,g=c*2;c-=14,sprintf(x,"%.4d",e+d/a),s+=x,e=d%a)for(b=c;d+=f[b]*a,f[b]=d%--g,d/=g--,--b;d*=b);for(b=1;b<s.size()-3;)std::cout<<std::bitset<8>(s[b++]);}
